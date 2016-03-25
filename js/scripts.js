@@ -14,10 +14,15 @@ $(document).ready(function() {
     if (name === null || name === ""){
       $("#alert").text("Please enter a name and resubmit.");
 
-    } else if(climate === "hot" && tree === "palm" && passport === "no"       && city === "city") {
+    } else if(climate === "hot" && tree === "palm" && city === "city") {
       $(".default").addClass("hidedefault");
       $(".showme").removeClass("showme");
       $(".hawaii").addClass("showme");
+
+    } else if(climate === "temperate" && city === "city" && passport === "no") {
+      $(".default").addClass("hidedefault");
+      $(".showme").removeClass("showme");
+      $(".diego").addClass("showme");
 
     } else if (climate === "hot" && tree === "palm" && passport   === "yes" && city === "country") {
       $(".default").addClass("hidedefault");
@@ -43,6 +48,21 @@ $(document).ready(function() {
       $(".default").addClass("hidedefault");
       $(".showme").removeClass("showme");
       $(".newyork").addClass("showme");
+
+    }else if (climate === "cold" && passport === "yes" && city === "city") {
+      $(".default").addClass("hidedefault");
+      $(".showme").removeClass("showme");
+      $(".moscow").addClass("showme");
+
+    } else if (climate === "hot" && passport === "no" && city === "country") {
+      $(".default").addClass("hidedefault");
+      $(".showme").removeClass("showme");
+      $(".utah").addClass("showme");
+
+    } else if (climate === "cold" || "temperate" && passport === "no" && city === "city") {
+      $(".default").addClass("hidedefault");
+      $(".showme").removeClass("showme");
+      $(".portland").addClass("showme");
 
     } else {
       $(".default").addClass("hidedefault");
