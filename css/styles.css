@@ -2,13 +2,16 @@
   margin-top: 25px;
 }
 form {
-
+ max-width: 37%;
 }
-.pic {
+.pic{
   display: none;
+  margin: 0 15px 15px 15px;
 }
 img {
-  max-width: 60%;
+  max-width: 100%;
+  max-height:273px;
+  border-radius: 6px;
 }
 
 .showme {
@@ -25,6 +28,7 @@ body {
   text-align: center;
   top: 0;
   height: 8em;
+  background:linear-gradient( 0deg, #27588F, #97CBFF);
 }
 #header {
  margin-bottom:2em;
@@ -36,6 +40,7 @@ body {
   max-width: 70;
 }
 #namer {
+  color: #27588F;
   max-width: 40%;
   background-color: #E6EBFC;
   border-style: inset;
@@ -47,28 +52,56 @@ body {
 
 #trees, #climates, #passports, #cities, #kiddos {
   color: #27588F;
-  max-width: 37%;
+  max-width: 100%;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-style: solid;
   border-width: 2px;
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
+  border-radius: 6px;
   border-left: none;
   border-color: #27588F;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #97CBFF;
 }
+.butdiv {
+  width: 100%;
+  position: relative;
+  display: inline-block;
 
+
+  text-align: center;
+}
 #sub {
+
   color: #27588F;
   background-color: #97CBFF;
   max-width: 180px;
-  margin-bottom: 4em;
+
 }
 
 #display {
+  max-height: 390px;
+  max-width: 45%;
+  float:right;
   display: inline-block;
-  float: right;
+  margin-top: 50px;
+  color: #27588F;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-right: none;
+  border-color: #27588F;
+  background-color: #97CBFF;
+}
+
+#foot {
+  background: linear-gradient(to bottom, rgba(59, 80, 100, 1) 5%, rgba(59, 80, 100, 0)), url('../img/sand.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 15em;
+  bottom: 0;
+  left:0;
+  margin-top: 25px;
 }
