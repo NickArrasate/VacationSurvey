@@ -32,6 +32,9 @@ body {
 h1 {
   font-size: 40pt;
 }
+#cities h4{
+  max-width: 200px;
+}
 .head {
   color: #27588F;
   font-family: 'Quicksand', sans-serif;
@@ -96,7 +99,7 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   background-color: #97CBFF;
   width: 100%;
-  box-shadow: 8px 5px 3px black;
+  box-shadow: 8px 5px 3px rgb(30,30,30);
 }
 #display {
   max-height: 390px;
@@ -131,7 +134,14 @@ h1 {
   margin-right: 25px;
 }
 #foot {
-  background: linear-gradient(to bottom, rgba(59, 80, 100, 1) 5%, rgba(59, 80, 100, 0)), url('../img/sand.jpg') no-repeat;
+  background: background: rgba(194,224,255,1);
+  background: -moz-linear-gradient(top, rgba(194,224,255,1) 0%, rgba(39,88,143,1) 0%, rgba(53,101,152,1) 16%, rgba(129,172,202,0) 100%), url('../img/sand.jpg') no-repeat;;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(194,224,255,1)), color-stop(0%, rgba(39,88,143,1)), color-stop(16%, rgba(53,101,152,1)), color-stop(100%, rgba(129,172,202,0)));
+  background: -webkit-linear-gradient(top, rgba(194,224,255,1) 0%, rgba(39,88,143,1) 0%, rgba(53,101,152,1) 16%, rgba(129,172,202,0) 100%), url('../img/sand.jpg') no-repeat;;
+  background: -o-linear-gradient(top, rgba(194,224,255,1) 0%, rgba(39,88,143,1) 0%, rgba(53,101,152,1) 16%, rgba(129,172,202,0) 100%), url('../img/sand.jpg') no-repeat;;
+  background: -ms-linear-gradient(top, rgba(194,224,255,1) 0%, rgba(39,88,143,1) 0%, rgba(53,101,152,1) 16%, rgba(129,172,202,0) 100%), url('../img/sand.jpg') no-repeat;;
+  background: linear-gradient(to bottom, rgba(194,224,255,1) 0%, rgba(39,88,143,1) 0%, rgba(53,101,152,1) 16%, rgba(129,172,202,0) 100%), url('../img/sand.jpg') no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2e0ff', endColorstr='#81acca', GradientType=0 ), url('../img/sand.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
