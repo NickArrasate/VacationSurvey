@@ -1,5 +1,15 @@
 .radio {
-  margin-top: 25px;
+  margin-top: 10px;
+}
+.hidedefault{
+  display: none;
+}
+#alert{
+  display: block;
+  margin-top: 0;
+  color: #ED2D2D;
+  font-weight: bold;
+  font-size: 14pt;
 }
 form {
  max-width: 37%;
@@ -13,48 +23,53 @@ img {
   max-height:273px;
   border-radius: 6px;
 }
-
 .showme {
   display: block;
 }
 body {
   background-color: #27588F;
 }
+h1 {
+  font-size: 40pt;
+}
 .head {
   color: #27588F;
-  background-color: #97CBFF;
+  font-family: 'Quicksand', sans-serif;
+  /*background-color: #97CBFF;*/
   padding-top: 1em;
-  margin-bottom: 2em;
   text-align: center;
   top: 0;
-  height: 8em;
+  height: 10%;
   background:linear-gradient( 0deg, #27588F, #97CBFF);
 }
 #header {
  margin-bottom:2em;
-
 }
 .namegetter {
   color: #97CBFF;
+  font-family: 'Quicksand', sans-serif;
   margin-left: 17px;
   max-width: 70;
+  margin-bottom: 20px;
 }
 #namer {
   color: #27588F;
+  font-family: 'Quicksand', sans-serif;
   max-width: 40%;
   background-color: #E6EBFC;
   border-style: inset;
   border-radius: 2px;
   border-width: 1px;
   margin-left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
-
 #trees, #climates, #passports, #cities, #kiddos {
   color: #27588F;
+  font-family: 'Quicksand', sans-serif;
   max-width: 100%;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
   border-style: solid;
   border-width: 2px;
   border-radius: 6px;
@@ -62,24 +77,22 @@ body {
   border-color: #27588F;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 5px;
   background-color: #97CBFF;
 }
 .butdiv {
   width: 100%;
   position: relative;
   display: inline-block;
-
-
   text-align: center;
 }
 #sub {
-
   color: #27588F;
+  font-family: 'Quicksand', sans-serif;
   background-color: #97CBFF;
-  max-width: 180px;
-
+  width: 100%;
+  box-shadow: 8px 5px 3px black;
 }
-
 #display {
   max-height: 390px;
   max-width: 45%;
@@ -87,6 +100,7 @@ body {
   display: inline-block;
   margin-top: 50px;
   color: #27588F;
+  font-family: 'Quicksand', sans-serif;
   border-style: solid;
   border-width: 2px;
   border-radius: 8px;
@@ -94,7 +108,16 @@ body {
   border-color: #27588F;
   background-color: #97CBFF;
 }
-
+.default {
+  max-width: 45%;
+  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+  float: right;
+  color: #97CBFF;
+  background-color: #27588F;
+  margin-top: 100px;
+  margin-right: 25px;
+}
 #foot {
   background: linear-gradient(to bottom, rgba(59, 80, 100, 1) 5%, rgba(59, 80, 100, 0)), url('../img/sand.jpg') no-repeat;
   background-size: cover;
